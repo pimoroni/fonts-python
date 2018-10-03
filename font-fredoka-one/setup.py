@@ -49,11 +49,11 @@ setup(
     url             = 'http://www.pimoroni.com',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['pyfont', 'pyfont.font_fredoka_one'],
-    package_data    = {'pyfont.font_fredoka_one': ['pyfont/font_fredoka_one/files']},
+    packages        = ['fonts', 'fonts.font_fredoka_one'],
+    package_data    = {'fonts.font_fredoka_one': ['fonts/font_fredoka_one/files']},
     entry_points    = {
-        'pyfont_fonts': [
-            'fredoka-one = pyfont.font_fredoka_one:font_files'
+        'fonts_fonts': [
+            'fredoka-one = fonts.font_fredoka_one:font_files'
         ]
     },
     zip_safe        = False,

@@ -2,6 +2,6 @@ include CHANGELOG.txt
 include LICENSE.txt
 include README.txt
 include setup.py
-recursive-include pyfont *.py
-recursive-include pyfont/files *.ttf
-include pyfont/files/OFL.txt
+recursive-include fonts *.py
+recursive-include fonts/files *.ttf
+include fonts/files/OFL.txt

@@ -38,24 +38,18 @@ classifiers = ['Development Status :: 5 - Production/Stable',
                'Topic :: System :: Hardware']
 
 setup(
-    name            = 'font-amatic-sc',
+    name            = 'fonts',
     version         = '0.0.1',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
-    description     = 'Inky e-paper fonts',
+    description     = 'Python Fonts',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
-    license         = 'MIT',
-    keywords        = 'Amatic SC Font',
+    license         = 'MIT, OFL',
+    keywords        = 'Fonts',
     url             = 'http://www.pimoroni.com',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['fonts', 'fonts.font_amatic_sc'],
-    package_data    = {'fonts.font_amatic_sc': ['fonts/font_amatic_sc/files']},
-    entry_points    = {
-        'fonts_fonts': [
-            'amatic-sc = fonts.font_amatic_sc:font_files'
-        ]
-    },
+    packages        = ['fonts'],
     zip_safe        = False,
     include_package_data = True
 )
