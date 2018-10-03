@@ -38,22 +38,22 @@ classifiers = ['Development Status :: 5 - Production/Stable',
                'Topic :: System :: Hardware']
 
 setup(
-    name            = 'font-fredoka-one',
-    version         = '0.0.3',
+    name            = 'font-intuitive',
+    version         = '0.0.1',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
-    description     = 'Fredoka One sans-serif font',
+    description     = 'Amatic SC hand-drawn font',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
-    license         = 'MIT, OFL',
-    keywords        = 'Fredoka One Font',
+    license         = 'MIT',
+    keywords        = 'Amatic SC Font',
     url             = 'https://github.com/pimoroni/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['font_fredoka_one'],
-    package_data    = {'font_fredoka_one': ['font_fredoka_one/files']},
+    packages        = ['font_intuitive'],
+    package_data    = {'font_intuitive': ['font_intuitive/files']},
     entry_points    = {
         'fonts_ttf': [
-            'fredoka-one = font_fredoka_one:font_files'
+            'intuitive = font_intuitive:font_files'
         ]
     },
     zip_safe        = False,

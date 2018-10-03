@@ -15,7 +15,13 @@ How
 
 Fonts uses ``entry_points`` to expose the font files located in each package.
 
-To use these fonts in your project you should include them as a dependency and either grab the font paths using ``pkg_resources.iter_entry_points('fonts_fonts')`` or use this fonts module to collate them for you.
+To use these fonts in your project you should include them as a dependency and either grab the font paths using ``pkg_resources.iter_entry_points('fonts_ttf')`` or use this fonts module to collate them for you.
+
+For example::
+
+    from PIL import ImageFont
+    from fonts.ttf import AmaticSC
+    font = ImageFont.truetype(AmaticSC)
 
 Fonts
 =====

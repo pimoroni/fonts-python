@@ -39,17 +39,17 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name            = 'fonts',
-    version         = '0.0.1',
+    version         = '0.0.2',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
     description     = 'Python Fonts',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
     license         = 'MIT, OFL',
     keywords        = 'Fonts',
-    url             = 'http://www.pimoroni.com',
+    url             = 'https://github.com/pimoroni/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['fonts'],
+    packages        = ['fonts', 'fonts.ttf'],
     zip_safe        = False,
     include_package_data = True
 )
