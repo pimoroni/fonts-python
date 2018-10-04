@@ -39,7 +39,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name            = 'fonts',
-    version         = '0.0.2',
+    version         = '0.0.3',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
     description     = 'Python Fonts',
@@ -49,7 +49,7 @@ setup(
     url             = 'https://github.com/pimoroni/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['fonts', 'fonts.ttf'],
+    packages        = ['fonts', 'fonts.ttf', 'fonts.otf'],
     zip_safe        = False,
     include_package_data = True
 )
