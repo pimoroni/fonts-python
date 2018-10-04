@@ -1,0 +1,7 @@
+include CHANGELOG.txt
+include LICENSE.txt
+include README.txt
+include setup.py
+recursive-include font_hanken_grotesk *.py
+recursive-include font_hanken_grotesk/files *.otf
+include font_hanken_grotesk/files/OFL.txt

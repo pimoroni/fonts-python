@@ -1,0 +1,7 @@
+include CHANGELOG.txt
+include LICENSE.txt
+include README.txt
+include setup.py
+recursive-include font_font_awesome *.py
+recursive-include font_font_awesome/files *.otf
+include font_font_awesome/files/OFL.txt
