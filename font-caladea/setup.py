@@ -29,7 +29,7 @@ except ImportError:
 
 classifiers = ['Development Status :: 5 - Production/Stable',
                'Operating System :: POSIX :: Linux',
-               'License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)',
+               'License :: OSI Approved :: Apache Software License',
                'Intended Audience :: Developers',
                'Programming Language :: Python :: 2.6',
                'Programming Language :: Python :: 2.7',
@@ -38,22 +38,22 @@ classifiers = ['Development Status :: 5 - Production/Stable',
                'Topic :: Text Processing :: Fonts']
 
 setup(
-    name            = 'font-intuitive',
-    version         = '0.0.4',
+    name            = 'font-caladea',
+    version         = '0.0.2',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
-    description     = 'Intuitive hand-drawn font',
+    description     = 'Caladea serif font',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
-    license         = 'SIL OFL 1.1',
-    keywords        = 'Intuitive Font',
+    license         = 'APACHE 2.0',
+    keywords        = 'Caladea Font',
     url             = 'https://github.com/pimoroni/fonts-python',
     classifiers     = classifiers,
     py_modules      = [],
-    packages        = ['font_intuitive'],
-    package_data    = {'font_intuitive': ['font_intuitive/files']},
+    packages        = ['font_caladea'],
+    package_data    = {'font_caladea': ['font_caladea/files']},
     entry_points    = {
         'fonts_ttf': [
-            'intuitive = font_intuitive:font_files'
+            'caladea = font_caladea:font_files'
         ]
     },
     zip_safe        = False,

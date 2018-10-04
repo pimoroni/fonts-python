@@ -1,0 +1,7 @@
+include CHANGELOG.txt
+include LICENSE.txt
+include README.txt
+include setup.py
+recursive-include font_caladea *.py
+recursive-include font_caladea/files *.ttf
+include font_caladea/files/APACHE-2.0.txt
