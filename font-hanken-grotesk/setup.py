@@ -29,22 +29,22 @@ except ImportError:
 
 classifiers = ['Development Status :: 5 - Production/Stable',
                'Operating System :: POSIX :: Linux',
-               'License :: OSI Approved :: MIT License',
+               'License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)',
                'Intended Audience :: Developers',
                'Programming Language :: Python :: 2.6',
                'Programming Language :: Python :: 2.7',
                'Programming Language :: Python :: 3',
                'Topic :: Software Development',
-               'Topic :: System :: Hardware']
+               'Topic :: Text Processing :: Fonts']
 
 setup(
     name            = 'font-hanken-grotesk',
-    version         = '0.0.1',
+    version         = '0.0.2',
     author          = 'Philip Howard',
     author_email    = 'phil@pimoroni.com',
     description     = 'Hanken Grotesk serif font',
     long_description= open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
-    license         = 'MIT, OFL',
+    license         = 'SIL OFL 1.1',
     keywords        = 'Hanken Grotesk Font',
     url             = 'https://github.com/pimoroni/fonts-python',
     classifiers     = classifiers,

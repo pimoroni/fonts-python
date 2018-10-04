@@ -1,0 +1,9 @@
+0.0.4
+=====
+
+- Updated licenses to better reflect OFL nature of the font itself and dropped references to MIT
+
+0.0.1
+=====
+
+- Initial release
