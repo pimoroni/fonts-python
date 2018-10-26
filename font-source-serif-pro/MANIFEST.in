@@ -1,0 +1,8 @@
+include CHANGELOG.txt
+include LICENSE.txt
+include README.txt
+include setup.py
+recursive-include font_source_serif_pro *.py
+recursive-include font_source_serif_pro/files *.ttf
+recursive-include font_source_serif_pro/files *.otf
+include font_source_serif_pro/files/LICENSE.txt
