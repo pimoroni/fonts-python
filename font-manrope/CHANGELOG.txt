@@ -1,3 +1,8 @@
+0.0.2
+=====
+
+* Actually include font files and license
+
 0.0.1
 =====
 

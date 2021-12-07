@@ -2,6 +2,6 @@ include CHANGELOG.txt
 include LICENSE.txt
 include README.txt
 include setup.py
-recursive-include font_intuitive *.py
-recursive-include font_intuitive/files *.ttf
-include font_intuitive/files/OFL.txt
+recursive-include font_manrope *.py
+recursive-include font_manrope/files *.ttf
+include font_manrope/files/OFL.txt
